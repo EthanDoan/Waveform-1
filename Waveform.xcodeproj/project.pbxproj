@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD94F071C8B780C0094176D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD94F061C8B780C0094176D /* main.m */; };
+		FCD94F0A1C8B780C0094176D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD94F091C8B780C0094176D /* AppDelegate.m */; };
+		FCD94F101C8B780C0094176D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD94F0E1C8B780C0094176D /* Main.storyboard */; };
+		FCD94F121C8B780C0094176D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD94F111C8B780C0094176D /* Assets.xcassets */; };
+		FCD94F151C8B780C0094176D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD94F131C8B780C0094176D /* LaunchScreen.storyboard */; };
+		FCD94F1E1C8B78550094176D /* WaveformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD94F1D1C8B78550094176D /* WaveformViewController.m */; };
+		FCD94F211C8B788F0094176D /* WaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD94F201C8B788F0094176D /* WaveformView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCD94F021C8B780C0094176D /* Waveform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waveform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD94F061C8B780C0094176D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD94F081C8B780C0094176D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD94F091C8B780C0094176D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD94F0F1C8B780C0094176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD94F111C8B780C0094176D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD94F141C8B780C0094176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD94F161C8B780C0094176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD94F1C1C8B78550094176D /* WaveformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveformViewController.h; sourceTree = "<group>"; };
+		FCD94F1D1C8B78550094176D /* WaveformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveformViewController.m; sourceTree = "<group>"; };
+		FCD94F1F1C8B788F0094176D /* WaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveformView.h; sourceTree = "<group>"; };
+		FCD94F201C8B788F0094176D /* WaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveformView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD94EFF1C8B780C0094176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD94EF91C8B780C0094176D = {
+			isa = PBXGroup;
+			children = (
+				FCD94F041C8B780C0094176D /* Waveform */,
+				FCD94F031C8B780C0094176D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD94F031C8B780C0094176D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD94F021C8B780C0094176D /* Waveform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD94F041C8B780C0094176D /* Waveform */ = {
+			isa = PBXGroup;
+			children = (
+				FCD94F081C8B780C0094176D /* AppDelegate.h */,
+				FCD94F091C8B780C0094176D /* AppDelegate.m */,
+				FCD94F1C1C8B78550094176D /* WaveformViewController.h */,
+				FCD94F1D1C8B78550094176D /* WaveformViewController.m */,
+				FCD94F1F1C8B788F0094176D /* WaveformView.h */,
+				FCD94F201C8B788F0094176D /* WaveformView.m */,
+				FCD94F0E1C8B780C0094176D /* Main.storyboard */,
+				FCD94F111C8B780C0094176D /* Assets.xcassets */,
+				FCD94F131C8B780C0094176D /* LaunchScreen.storyboard */,
+				FCD94F161C8B780C0094176D /* Info.plist */,
+				FCD94F051C8B780C0094176D /* Supporting Files */,
+			);
+			path = Waveform;
+			sourceTree = "<group>";
+		};
+		FCD94F051C8B780C0094176D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD94F061C8B780C0094176D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD94F011C8B780C0094176D /* Waveform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD94F191C8B780C0094176D /* Build configuration list for PBXNativeTarget "Waveform" */;
+			buildPhases = (
+				FCD94EFE1C8B780C0094176D /* Sources */,
+				FCD94EFF1C8B780C0094176D /* Frameworks */,
+				FCD94F001C8B780C0094176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waveform;
+			productName = Waveform;
+			productReference = FCD94F021C8B780C0094176D /* Waveform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD94EFA1C8B780C0094176D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					FCD94F011C8B780C0094176D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FCD94EFD1C8B780C0094176D /* Build configuration list for PBXProject "Waveform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD94EF91C8B780C0094176D;
+			productRefGroup = FCD94F031C8B780C0094176D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD94F011C8B780C0094176D /* Waveform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD94F001C8B780C0094176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD94F151C8B780C0094176D /* LaunchScreen.storyboard in Resources */,
+				FCD94F121C8B780C0094176D /* Assets.xcassets in Resources */,
+				FCD94F101C8B780C0094176D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD94EFE1C8B780C0094176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD94F1E1C8B78550094176D /* WaveformViewController.m in Sources */,
+				FCD94F0A1C8B780C0094176D /* AppDelegate.m in Sources */,
+				FCD94F071C8B780C0094176D /* main.m in Sources */,
+				FCD94F211C8B788F0094176D /* WaveformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD94F0E1C8B780C0094176D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD94F0F1C8B780C0094176D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD94F131C8B780C0094176D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD94F141C8B780C0094176D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD94F171C8B780C0094176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCD94F181C8B780C0094176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD94F1A1C8B780C0094176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waveform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Waveform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD94F1B1C8B780C0094176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waveform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Waveform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD94EFD1C8B780C0094176D /* Build configuration list for PBXProject "Waveform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD94F171C8B780C0094176D /* Debug */,
+				FCD94F181C8B780C0094176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD94F191C8B780C0094176D /* Build configuration list for PBXNativeTarget "Waveform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD94F1A1C8B780C0094176D /* Debug */,
+				FCD94F1B1C8B780C0094176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD94EFA1C8B780C0094176D /* Project object */;
+}
