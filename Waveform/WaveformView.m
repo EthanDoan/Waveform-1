@@ -43,14 +43,13 @@ static NSString * const kYFWaveformLayerReferenceKey = @"yf_animation_layer";
         _barColor = [UIColor whiteColor];
         _minimumBarAnimationDuration = 0.4;
         _maximumBarAnimationDuration = 1.0;
+        _barVerticalAlignment = UIControlContentVerticalAlignmentTop;
         
         _barLayersByLayerId = [NSMutableDictionary dictionary];
         _barAnimationsByLayerId = [NSMutableDictionary dictionary];
         
         _waveFormLayer = [CALayer layer];
         [self.layer addSublayer:_waveFormLayer];
-        
-        self.barVerticalAlignment = UIControlContentVerticalAlignmentBottom;
         
         _barLayers = [NSMutableArray array];
         [self addBarCount:_numberOfBars fromIndex:0];
